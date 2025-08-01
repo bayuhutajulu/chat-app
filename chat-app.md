@@ -2,20 +2,19 @@
 
 ## Table of Contents
 
-1. [Key Requirements & Assumptions](#key-requirements--assumptions)
-   - 1.1 [Performance Calculations](#performance-calculations)
-2. [Critical Design Decisions](#critical-design-decisions)
-3. [System Architecture & APIs](#system-architecture--apis)
-4. [WhatsApp-Style Message Flow](#whatsapp-style-message-flow-online-vs-offline-routing)
-   - 4.1 [Simple Message Flow Overview](#simple-message-flow-overview)
-   - 4.2 [Personal Chat Message Flow](#personal-chat-message-flow)
-   - 4.3 [Group Chat Message Flow](#group-chat-message-flow)
-   - 4.4 [Media Upload & Sharing Flow](#media-upload--sharing-flow)
-5. [End-to-End Encryption Architecture](#end-to-end-encryption-architecture)
-   - 5.1 [Signal Protocol Implementation](#signal-protocol-implementation)
-   - 5.2 [Key Exchange & Distribution](#key-exchange--distribution)
-   - 5.3 [Group Key Management](#group-key-management)
-6. [Discussion Points](#discussion-points)
+1. [Key Requirements & Assumptions](#1-key-requirements--assumptions)
+   - 1.1 [Performance Calculations](#11-performance-calculations)
+2. [Critical Design Decisions](#2-critical-design-decisions)
+3. [System Architecture & APIs](#3-system-architecture--apis)
+4. [WhatsApp-Style Message Flow: Online vs Offline Routing](#4-whatsapp-style-message-flow-online-vs-offline-routing)
+   - 4.1 [Simple Message Flow Overview](#41-simple-message-flow-overview)
+   - 4.2 [Personal Chat Message Flow](#42-personal-chat-message-flow)
+   - 4.3 [Group Chat Message Flow](#43-group-chat-message-flow)
+   - 4.4 [Media Upload & Sharing Flow](#44-media-upload--sharing-flow)
+5. [End-to-End Encryption Architecture](#5-end-to-end-encryption-architecture)
+   - 5.1 [Signal Protocol Implementation](#51-signal-protocol-implementation)
+   - 5.2 [Key Exchange & Distribution](#52-key-exchange--distribution)
+   - 5.3 [Group Key Management](#53-group-key-management)
 
 ## 1. Key Requirements & Assumptions
 
